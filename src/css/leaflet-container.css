@@ -1,0 +1,7 @@
+.leaflet-container {
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    height: 800px;
+  }
+  

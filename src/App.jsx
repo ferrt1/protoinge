@@ -2,7 +2,7 @@ import { Header } from "./components/header/Header";
 import "leaflet/dist/leaflet.css";
 //import { Map } from './components/Map'
 import { MainPage } from "./components/mainpage/MainPage";
-import { InfoContainer } from "./components/mainpage/CenterInfo";
+import { CenterInfo } from "./components/mainpage/CenterInfo";
 import { EventContainer } from "./components/mainpage/EventContainer";
 import { Services } from "./components/mainpage/Services";
 //import { EventSite } from './components/EventSite';
@@ -14,7 +14,7 @@ function App() {
         <Header />
         <div className="lg:flex md:gap-8 mb-12">
           <MainPage />
-          <InfoContainer />
+          <CenterInfo />
         </div>
         <EventContainer/>
         <Services/>

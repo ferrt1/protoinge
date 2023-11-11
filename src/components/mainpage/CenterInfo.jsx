@@ -1,4 +1,4 @@
-export const InfoContainer = () => {
+export const CenterInfo = () => {
   return (
     <aside className="bg-semiBlack text-white px-[20px] py-[28px] lg:w-[358px] lg:min-w-[260px] lg:max-h-[650px] mt-4 lg:mt-0">
       <h1 className="text-4xl font-bold text-lightBlue">Centros de Atención</h1>
@@ -14,9 +14,11 @@ export const InfoContainer = () => {
           <h2 className="text-[1em] py-4 md:py-3 xl:text-[16px]">
             Presiona para saber ubicación de los centros de atención
           </h2>
+          <a to="/map">
           <button className="bg-primary text-white w-[168px] h-[48px] uppercase hover:bg-secondary">
             Mostrar Centros
           </button>
+          </a>
         </div>
       </section>
     </aside>
